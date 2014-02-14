@@ -11,7 +11,6 @@ module Ork
         attribute :created_at, accessors: :reader
         attribute :updated_at, accessors: :reader
 
-
         def created_at=(a)
           @attributes[:created_at] = Time.parse a.to_s
         end
@@ -20,14 +19,14 @@ module Ork
           @attributes[:updated_at] = Time.parse a.to_s
         end
 
-        alias :save_without_timestamps :save
-
         def save_with_timestamps
           self.created_at = Time.now if self.new?
           self.updated_at = Time.now
 
           save_without_timestamps
         end
+
+        alias :save_without_timestamps :save
         alias :save :save_with_timestamps
       end
     end
