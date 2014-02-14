@@ -4,7 +4,7 @@ ork-timestamps
 [![Gem Version](https://badge.fury.io/rb/ork-timestamps.png)](http://badge.fury.io/rb/ork-timestamps)
 [![Build Status](https://secure.travis-ci.org/emancu/ork-timestamps.png)](http://travis-ci.org/emancu/ork-timestamps)
 [![Code Climate](https://codeclimate.com/github/emancu/ork-timestamps.png)](https://codeclimate.com/github/emancu/ork-timestamps)
-[![Coverage Status](https://coveralls.io/repos/emancu/ork/badge.png)](https://coveralls.io/r/emancu/ork-timestamps)
+[![Coverage Status](https://coveralls.io/repos/emancu/ork-timestamps/badge.png)](https://coveralls.io/r/emancu/ork-timestamps)
 [![Dependency Status](https://gemnasium.com/emancu/ork-timestamps.png)](https://gemnasium.com/emancu/ork-timestamps)
 
 
