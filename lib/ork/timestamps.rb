@@ -1,6 +1,6 @@
 module Ork
   module Timestamps
-    VERSION = '0.0.1'
+    VERSION = '0.0.2'
 
     def self.included(klass)
       raise Ork::NotOrkObject unless klass.include? Ork::Document

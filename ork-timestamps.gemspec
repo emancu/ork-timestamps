@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ork-timestamps'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = Time.now.strftime('%Y-%m-%d')
   s.summary     = 'A simple library to add timestamps to Ork::Documents stored in riak.'
   s.description = 'Add the clasic timestamps :created_at, :updated_at to the Ork::Documents'
