@@ -1,11 +1,9 @@
-require_relative 'errors'
-
 module Ork
   module Timestamps
     VERSION = '0.0.1'
 
     def self.included(klass)
-      raise NotAnOrkDocument unless klass.included_modules.include? Ork::Document
+      raise Ork::NotOrkObject unless klass.include? Ork::Document
 
       klass.class_eval do |base|
         attribute :created_at, accessors: :reader
