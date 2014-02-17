@@ -10,7 +10,7 @@ end
 Protest.describe 'Ork::Timestamps' do
   context 'include Ork::Timestamps' do
     test 'raise an error if it is not a Ork::Document' do
-      assert_raise Ork::Timestamps::NotAnOrkDocument do
+      assert_raise Ork::NotOrkObject do
         class NotADocument
           include Ork::Timestamps
         end
